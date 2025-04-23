@@ -87,6 +87,7 @@ for file in files:
 
     print(f" {base_name} ➜ uložen jako {output_file}")
 
+# SKRIPT - DRUHÁ ČÁST
 # Souhrnný export + týdenní souhrn
 if vsechny_data:
     souhrn_df = pd.concat(vsechny_data, ignore_index=True)
